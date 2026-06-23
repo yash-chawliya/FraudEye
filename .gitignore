@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env/
+
+# Datasets (Too large for GitHub)
+data/creditcard.csv
+
+# Temporary files or test data (Optional, but test_dataset.csv is small enough to commit if you want. 
+# We'll leave test_dataset.csv committed for demonstration purposes.)
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
