@@ -1,4 +1,4 @@
-# Credit Card Fraud Detection System
+# FraudEye - a fraud detection system for digital payments
 
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)

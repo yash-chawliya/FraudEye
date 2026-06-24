@@ -30,7 +30,7 @@ def load_and_predict_data(file_obj, _model, _scaler):
     df['Fraud_Probability'] = probabilities
     return df
 
-st.set_page_config(page_title="Credit Card Fraud Detection", layout="wide")
+st.set_page_config(page_title="FraudEye", layout="wide")
 
 # Inject CSS for boxy UI
 st.markdown("""
@@ -83,7 +83,7 @@ with st.sidebar.expander("About This Model"):
 
 # Define multi-page navigation
 pages = {
-    "Fraud Detection Dashboard": [
+    "FraudEye Dashboard": [
         st.Page("pages/1_Dashboard.py", title="Dashboard"),
         st.Page("pages/2_Analyze_Transactions.py", title="Analyze Transactions"),
         st.Page("pages/3_Model_Insights.py", title="Model Insights"),
